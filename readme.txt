@@ -17,3 +17,17 @@ Flash Type List
   5:SMDK2440:K9S1208 64MB
   6:SMDK2440:AM29LV800BB
 
+root@debian:/opt/s3c2440_work/tool/jtag/for_linux# ./Jflash-s3c2440 u-boot.bin  /t=5 /d=5
+
++------------------------------------+
+|     SEC JTAG FLASH for 2440+        
+|     modified by Quasar 2003.9.22+   
++------------------------------------+
+> flashType=5
+> S3C2440X(ID=0x0032409d) is detected.
+
+[K9S1208 NAND Flash JTAG Programmer]
+ERROR: K9S1208 is not detected. Detected ID=0xecda.
+
+need modify the support fof ID=0xecda
+
