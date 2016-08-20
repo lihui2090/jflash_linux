@@ -1,7 +1,7 @@
 #ifndef __PPT_H__
 #define __PPT_H__
 
-#include <asm/io.h>
+#include <sys/io.h>
 #define _inp(a) inb(a)
 #define _outp(a,d) outb(d,a)
 
